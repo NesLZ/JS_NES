@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ¿Cuantas veces saldran la palabra cafe??
+        let drinkCoffee = 0
+                                                
+while (drinkCoffee < 10) {
+  drinkCoffee = drinkCoffee + 1
+                                            //    SON 6 CAFESES PORQUE SE SALTA EL 5 Y LO ROMPE EN EL 8,Y NO CONTINUA A MAS
+  if (drinkCoffee === 8) { break }
+  if (drinkCoffee === 5) { continue }
+
+  console.log('Café')
+}
+    </script>
+</body>
+</html>
